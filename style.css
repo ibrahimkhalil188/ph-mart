@@ -43,6 +43,7 @@ button{
     font-style: normal;
     font-weight: normal;
     font-style: 2rem;
+    font-size: 2rem;
 }
 header .container{
     padding:0rem 20rem;
@@ -65,4 +66,46 @@ header nav .menu ul a{
 }
 header nav .menu ul a li:hover{
     color:#23fffd;
+}
+
+/* hero section  */
+.hero-section{
+    padding: 0rem 20rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+.hero-section .hero-content{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero-section .hero-content h1{
+    width: 40rem;
+    font-size: 5rem;
+    line-height: 5rem;
+    text-transform: capitalize;
+}
+.hero-section .hero-content p{
+    width: 45rem;
+    
+}
+.hero-img{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
