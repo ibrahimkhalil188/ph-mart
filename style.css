@@ -139,7 +139,7 @@ header nav .menu ul a li:hover{
 }
 .product-card{
     width: 25rem;
-    height: 30rem;
+    height: 40rem;
     background-color:#efefef;
     border-radius: 2rem;
     display: flex;
@@ -154,7 +154,68 @@ header nav .menu ul a li:hover{
     margin-bottom: 2rem;
 }
 .product-card h1{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
   
+/* media quary for mobile  */
+
+@media only screen and (max-width:576px) {
+    header .container, .hero-section, .feature{
+        width:100%;
+        padding:0rem 2rem;
+
+    }
+    header nav{
+        width: 100%;
+    }
+    header nav .logo h1{
+        font-size: 2rem;
+    }
+    header nav .menu ul a{
+        font-size: 2rem;
+    }
+    .hero-section{
+        display: block;
+       width:100%;
+       height: 100%;
+    }
+    .hero-section .hero-content{
+        width: 100%;
+        height: 100%;
+    }
+    .hero-section .hero-content h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .hero-section .hero-content p {
+        width: 80%;
+        height: 20rem;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+
+      }
+      .hero-img{
+          width: 80%;
+          margin-top: 2rem;
+      }
+      .feature{
+          width: 100%;
+          height: 100%;
+      }
+      .feature h1{
+        height: 8rem;
+        font-size: 3rem;
+        line-height: 1rem;
+        padding-top: 4rem;
+        
+  }
+  .products{
+      grid-template-columns: repeat(1, 1fr);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding:0rem;
+      margin: 0rem;
+  }
+}
