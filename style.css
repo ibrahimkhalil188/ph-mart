@@ -92,11 +92,9 @@ header nav .menu ul a li:hover{
     font-size: 5rem;
     line-height: 5rem;
     text-transform: capitalize;
+    margin-bottom: 5rem;
 }
-.hero-section .hero-content p{
-    width: 45rem;
     
-}
 .hero-img{
     width:50%;
     display: flex;
@@ -109,3 +107,54 @@ header nav .menu ul a li:hover{
     justify-content: center;
     align-items: center;
 }
+.hero-section .hero-content p {
+    width: 45rem;
+    margin-bottom: 3rem;
+  }
+  
+  /* products  */
+
+.feature{
+      padding: 0px 20rem;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 20rem;
+}
+
+.feature h1{
+      font-size: 8rem;
+      line-height: 2rem;
+      text-align: center;
+      text-transform: capitalize;
+      margin-bottom: 6rem;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 2rem;
+
+}
+.product-card{
+    width: 25rem;
+    height: 30rem;
+    background-color:#efefef;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.product-card img{
+    width:80%;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+.product-card h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+  
